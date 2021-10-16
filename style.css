@@ -1,0 +1,89 @@
+@font-face {
+	font-family: Inter;
+	src: url("Inter-VariableFont_slnt\,wght.ttf")
+}
+
+html {
+	background: black url(image/Background.jpg) center center no-repeat;
+	background-size: cover;
+	color: white;
+}
+
+body {
+	display: grid;
+	place-items: center;
+	margin: 0;
+	font-family: Inter, Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5em;
+}
+
+
+.Container {
+	margin: 2vh auto;
+	background-color: rgba(79, 109, 245, 0.8);
+	padding: 2rem;
+	border-radius: 2rem;
+	font-size: clamp(1rem, 2vw, 2rem);
+	line-height: 1.5em;
+}
+
+.TitlulPaginii {
+	display: block;
+	margin: 0;
+	font-weight: 400;
+	font-size: clamp(2rem, 6vw, 4rem);
+	line-height: 1em;
+}
+
+header {}
+
+.Avatar {
+	display: block;
+	float: left;
+	width: 112px;
+	height: auto;
+	margin: 0 1em 0 0;
+	border-radius: 50%;
+}
+
+main {}
+
+.ListaLinkuri {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+.ListaItem {
+	display: block;
+	margin: 0;
+	padding: 0;
+	border-bottom: 1px solid #fff;
+}
+
+.ListaLink {
+	display: block;
+	margin: 0.5em;
+	color: #fff;
+	text-decoration: none;
+}
+
+.ListaTitlu,
+.ListaText {
+	display: block;
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+.fab {
+	color: rgb(204, 204, 204);
+	padding: 0 20px 0 0;
+}
+
+.fas {
+	color: rgb(204, 204, 204);
+	padding: 0 20px 0 0;
+}
